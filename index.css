@@ -1,0 +1,92 @@
+h1,
+button {
+  font-family: "Prompt", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body,
+.sketch,
+main,
+h1,
+.columnas,
+.contenido-sketch,
+.filas,
+.boton {
+  display: flex;
+}
+
+body,
+main,
+.columnas {
+  flex-direction: column;
+}
+
+body,
+main,
+h1,
+.sketch {
+  justify-content: center;
+}
+
+header,
+footer {
+  height: 100px;
+  background-color: black;
+}
+
+main,
+.sketch,
+.columnas,
+.filas {
+  height: auto;
+  width: auto;
+}
+
+h1 {
+  font-size: 40px;
+  padding-top: 40px;
+  color: #ffffff;
+}
+
+main {
+  background-color: #271f1f;
+  padding-bottom: 40px;
+}
+
+.sketch {
+  align-items: center;
+}
+
+.contenido-sketch {
+  border: 20px solid blueviolet;
+  height: 600px;
+  width: 600px;
+  margin-bottom: 40px;
+}
+
+.columnas {
+  background-color: whitesmoke;
+  flex: 1;
+  border: 1px solid blue;
+}
+
+.filas {
+  border: 2px solid blue;
+  flex: 1;
+}
+
+.boton {
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  align-items: center;
+}
