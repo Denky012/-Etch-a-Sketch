@@ -1,5 +1,5 @@
 //Ingresar un numero
-let filasColumnas;
+let filasColumnas = "16x16";
 let cantidadFilas;
 let cantidadColumnas;
 
@@ -65,3 +65,5 @@ function seleccion() {
     }
   }
 }
+// Llamar a la función seleccion() al cargar la página para crear la configuración inicial
+window.addEventListener("DOMContentLoaded", seleccion);
